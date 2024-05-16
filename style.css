@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
 
 body{
     text-align: center;
@@ -7,9 +8,12 @@ h1{
     font-family: "Poetsen One", sans-serif;
     color: blueviolet;
     font-size: 90px;
+    border-bottom: solid;
+  display: inline
     
 }
 #testo{
+    
     height: 50px;
     width: 300px;
 }
@@ -21,10 +25,29 @@ h1{
   border-radius: 10px;
   background-color: rgb(236, 234, 236);
   
+  
 }
 #bottoneId{
     color: black;
     background-color: blueviolet;
     border-radius: 5px;
 }
+#form{
+    padding-top: 4em;
+}
+li{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  font-size: 50px;
+  padding-top: 2em;
+   display: inline;
+  padding-bottom: 3em;
+  padding-right: 5em; }
+#lista{
+    padding-top: 1em;
+}
+ #testa{
+    display: inline;
+} 
     
