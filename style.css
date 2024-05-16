@@ -3,10 +3,13 @@
 
 body{
     text-align: center;
+    background-image: url(./assets/realistic-neon-lights-background_23-2148907367.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1{
     font-family: "Poetsen One", sans-serif;
-    color: blueviolet;
+    color: #003071;
     font-size: 90px;
     border-bottom: solid;
   display: inline
@@ -28,14 +31,19 @@ h1{
   
 }
 #bottoneId{
-    color: black;
-    background-color: blueviolet;
+    font-family: "Poetsen One", sans-serif;
+    color: white;
+    background-image: url(./assets/realistic-neon-lights-background_23-2148907367.avif);
     border-radius: 5px;
+    height: 3.5em;
+  width: 10em;
 }
 #form{
-    padding-top: 4em;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 li{
+    color: white;
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -45,9 +53,19 @@ li{
   padding-bottom: 3em;
   padding-right: 5em; }
 #lista{
-    padding-top: 1em;
+    padding-top: 10em;
 }
  #testa{
     display: inline;
 } 
+#card{
+    display: inline-block;
+  border: solid #ccbbd9;
+  padding: 3em;
+  border-radius: 15px;
+  background-color: white;
+}
+#form div{
+    padding-top: 1em;
+}
     
